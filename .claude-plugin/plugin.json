@@ -1,0 +1,26 @@
+{
+  "name": "noon",
+  "displayName": "Noon",
+  "version": "1.0.0",
+  "description": "Noon is an AI recruiter. Source candidates for a role, review who Noon found, edit the outreach it sends, and diagnose how a role's search is going.",
+  "author": {
+    "name": "Noon",
+    "email": "support@noon.ai",
+    "url": "https://www.noon.ai"
+  },
+  "homepage": "https://www.noon.ai",
+  "repository": "https://github.com/noon-ai/claude-plugin",
+  "license": "MIT",
+  "keywords": [
+    "recruiting",
+    "sourcing",
+    "hiring",
+    "candidates",
+    "outreach",
+    "talent"
+  ],
+  "icon": "./assets/logo.png",
+  "supportUrl": "https://www.noon.ai/contact",
+  "privacyPolicyUrl": "https://www.noon.ai/privacy",
+  "termsOfServiceUrl": "https://www.noon.ai/terms"
+}

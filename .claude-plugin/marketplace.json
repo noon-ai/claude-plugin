@@ -1,0 +1,15 @@
+{
+  "name": "noon",
+  "description": "Noon's plugins for Claude.",
+  "owner": {
+    "name": "Noon",
+    "email": "support@noon.ai"
+  },
+  "plugins": [
+    {
+      "name": "noon",
+      "source": "./",
+      "description": "Noon is an AI recruiter. Source candidates for a role, review who Noon found, edit the outreach it sends, and diagnose how a role's search is going."
+    }
+  ]
+}

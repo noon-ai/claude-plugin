@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "noon": {
+      "type": "http",
+      "url": "https://noon.fly.dev/mcp"
+    }
+  }
+}
