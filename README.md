@@ -32,6 +32,13 @@ It works in Claude Code and in Claude Cowork.
 - A Noon account at [www.noon.ai](https://www.noon.ai). Claude only sees the roles and candidates in your Noon workspace.
 - Outreach goes out from the email and LinkedIn accounts connected in your Noon portal.
 
+## What it connects to and what it stores
+
+- The plugin connects to one service: Noon's MCP server at `https://noon.fly.dev/mcp`, which Noon runs. Every tool call goes there, with your Noon sign-in.
+- The tools read and change data in your own Noon workspace: roles, candidate profiles, feed decisions, and outreach sequences. Accepting a candidate on a role with auto-contact on queues outreach to them from your connected accounts.
+- The plugin itself runs no scripts and stores nothing on your machine. The skills are instructions for Claude.
+- When you give `/noon:source` a job posting URL, Claude fetches that page with its own web tools to read the job description.
+
 ## Signing in
 
 In Claude Code, run `/mcp`, pick `plugin:noon:noon`, and choose **Authenticate**. Your browser opens the Noon sign-in page; after you approve, Claude can use the tools.
