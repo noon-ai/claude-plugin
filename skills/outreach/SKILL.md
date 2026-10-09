@@ -16,6 +16,6 @@ Request: $ARGUMENTS
    - Placeholders filled per candidate: `{first_name}`, `{last_name}`, `{company}`, and `{ai_intro}`, an AI-written personal opening line. Put `{ai_intro}` in the first InMail and the first email.
    - A typical sequence: connection invite, then an InMail 2 days later, then 2–3 email follow-ups.
    - A connection invite note is at most 300 characters. An InMail after a connection invite needs `wait_days` of at least 1.
-   - Leave out `connection_accepted` to keep the role's existing "invite accepted" messages; pass `null` only if the user wants them turned off.
+   - Leave out `connection_accepted` to keep the role's existing "invite accepted" messages; set it to `null` only if the user wants them turned off.
 
 4. **Confirm, then save.** Show the full new sequence and wait for the user's OK before calling `update_outbound_sequence`, since these messages go to real candidates from the user's own email and LinkedIn accounts. After saving, show the sequence the tool returns.
