@@ -10,6 +10,7 @@
   },
   "homepage": "https://www.noon.ai",
   "repository": "https://github.com/noon-ai/claude-plugin",
+  "documentationUrl": "https://github.com/noon-ai/claude-plugin#readme",
   "license": "MIT",
   "keywords": [
     "recruiting",
